@@ -1,0 +1,121 @@
+#fondo {    
+    background-image: url(/imagenes/fon4.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    margin: 20px;
+
+  
+}
+#cabecera {
+    background-image: url(/imagenes/geografia_contenido2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 120px;
+
+}
+
+#articulo {
+    text-align: center;
+    font-size: 30px;
+}
+#menu {
+    background: #cccccc;
+    padding: 5px 15px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+
+#seccion {
+    
+    background-image: url(/imagenes/nueva-york-de-noche\,-ciudad-de-noche\,-luna-167673.jpg) ;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: space-around;
+    content: "";
+    clear: both;
+    background-position: 50px;
+    align-self: center;
+}
+#art {
+    float:left;
+}
+
+#pie {
+    background-color: #739792;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 20px solid rgb(87, 101, 112);
+    
+
+}
+#pie2 {
+    outline: dotted rgb(136, 1, 136);     
+}
+#letra {
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(202, 202, 202);
+    text-shadow: 3px 2px red;
+    text-decoration: underline rgb(1, 58, 1);
+    text-align: right;
+}
+#menu {
+    background: #cccccc;
+    padding: 5px 15px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #111;
+}
+#menu li {
+    display:inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+
+}
+
+#pregunta {
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+#pregunta2 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;    
+
+}
+#txt {  
+    color: black;
+}
